@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DataTables | Gentelella</title>
+
+  <!-- Bootstrap -->
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- iCheck -->
+  <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+  <!-- Datatables -->
+  <link href="../vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+  <link href="../vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+  <link href="../vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+  <link href="../vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+  <link href="../vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.buttons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.bootstrap3.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Custom Theme Style -->
+  <link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <div class="navbar nav_title" style="border: 0;">
+            <a href="../vendors/bootstrap-daterangepicker/example/amd/index.html" class="site_title"><i
+                class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <!-- menu profile quick info -->
+          <div class="profile clearfix">
+            <div class="profile_pic">
+              <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+            </div>
+            <div class="profile_info">
+              <span>Welcome,</span>
+              <h2>John Doe</h2>
+            </div>
+          </div>
+          <!-- /menu profile quick info -->
+
+          <br />
+
+          <!-- sidebar menu -->
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <h3>General</h3>
+              <ul class="nav side-menu">
+                <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="../vendors/bootstrap-daterangepicker/example/amd/index.html">Dashboard</a></li>
+                    <li><a href="index2.html">Dashboard2</a></li>
+                    <li><a href="index3.html">Dashboard3</a></li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="form.html">General Form</a></li>
+                    <li><a href="form_advanced.html">Advanced Components</a></li>
+                    <li><a href="form_validation.html">Form Validation</a></li>
+                    <li><a href="form_wizards.html">Form Wizard</a></li>
+                    <li><a href="form_upload.html">Form Upload</a></li>
+                    <li><a href="form_buttons.html">Form Buttons</a></li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="general_elements.html">General Elements</a></li>
+                    <li><a href="media_gallery.html">Media Gallery</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                    <li><a href="icons.html">Icons</a></li>
+                    <li><a href="glyphicons.html">Glyphicons</a></li>
+                    <li><a href="widgets.html">Widgets</a></li>
+                    <li><a href="invoice.html">Invoice</a></li>
+                    <li><a href="inbox.html">Inbox</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="tables.html">Tables</a></li>
+                    <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="chartjs.html">Chart JS</a></li>
+                    <li><a href="chartjs2.html">Chart JS2</a></li>
+                    <li><a href="morisjs.html">Moris JS</a></li>
+                    <li><a href="echarts.html">ECharts</a></li>
+                    <li><a href="other_charts.html">Other Charts</a></li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                    <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="menu_section">
+              <h3>Live On</h3>
+              <ul class="nav side-menu">
+                <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="e_commerce.html">E-commerce</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="project_detail.html">Project Detail</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="page_403.html">403 Error</a></li>
+                    <li><a href="page_404.html">404 Error</a></li>
+                    <li><a href="page_500.html">500 Error</a></li>
+                    <li><a href="plain_page.html">Plain Page</a></li>
+                    <li><a href="login.html">Login Page</a></li>
+                    <li><a href="pricing_tables.html">Pricing Tables</a></li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="#level1_1">Level One</a>
+                    <li><a>Level One<span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li class="sub_menu"><a href="level2.html">Level Two</a>
+                        </li>
+                        <li><a href="#level2_1">Level Two</a>
+                        </li>
+                        <li><a href="#level2_2">Level Two</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#level1_2">Level One</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span
+                      class="label label-success pull-right">Coming Soon</span></a></li>
+              </ul>
+            </div>
+
+          </div>
+          <!-- /sidebar menu -->
+
+          <!-- /menu footer buttons -->
+          <div class="sidebar-footer hidden-small">
+            <a data-toggle="tooltip" data-placement="top" title="Settings">
+              <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+            </a>
+            <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+              <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+            </a>
+            <a data-toggle="tooltip" data-placement="top" title="Lock">
+              <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+            </a>
+            <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+              <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+            </a>
+          </div>
+          <!-- /menu footer buttons -->
+        </div>
+      </div>
+
+      <!-- top navigation -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <nav>
+            <div class="nav toggle">
+              <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src="images/img.jpg" alt="">John Doe
+                  <span class=" fa fa-angle-down"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                  <li><a href="javascript:;"> Profile</a></li>
+                  <li>
+                    <a href="javascript:;">
+                      <span class="badge bg-red pull-right">50%</span>
+                      <span>Settings</span>
+                    </a>
+                  </li>
+                  <li><a href="javascript:;">Help</a></li>
+                  <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                </ul>
+              </li>
+
+              <li role="presentation" class="dropdown">
+                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-envelope-o"></i>
+                  <span class="badge bg-green">6</span>
+                </a>
+                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                  <li>
+                    <a>
+                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      <span>
+                        <span>John Smith</span>
+                        <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      <span>
+                        <span>John Smith</span>
+                        <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      <span>
+                        <span>John Smith</span>
+                        <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      <span>
+                        <span>John Smith</span>
+                        <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <div class="text-center">
+                      <a>
+                        <strong>See All Alerts</strong>
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- /top navigation -->
+
+      <!-- Page Content -->
+      <div class="right_col" role="main">
+        <div class="page-title">
+          <div class="title_left">
+            <h3>Load Balancer Management</h3>
+          </div>
+        </div>
+        <div class="title_right">
+          <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>Domain to Server Assignment</h2>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <!-- <button id="add-domain" class="btn btn-primary">Add Domain</button> -->
+                <div id="add-domain" class="btn "
+                  style="display: inline-block; padding: 4px; background-color: #ddd; cursor: pointer; border-radius: 4px;">
+                  <i class="fa fa-plus" style="color: white; padding: 5px"> Add domain</i>
+                </div>
+
+                <button id="create-or-renew" class="btn btn-success">Create or Renew
+                  Certificate</button>
+                <button id="delete-selected" class="btn btn-danger">Delete
+                  Selected</button>
+                <table id="domain-table" class="table table-striped table-bordered">
+                  <thead>
+                    <tr>
+                      <th><input type="checkbox" id="select-all"></th> <!-- Checkbox column -->
+                      <th>Domain Name</th>
+                      <th>Server</th>
+                      <th>Certificate Status</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Rows will be populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap Modal for Delete Confirmation -->
+      <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="deleteModalLabel">Confirm Deletion</h3>
+            </div>
+            <div class="modal-body">
+              Are you sure you want to delete the selected domains?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-danger" id="confirmDelete">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer content -->
+      <footer>
+        <div class="pull-right">
+          Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+        </div>
+        <div class="clearfix"></div>
+      </footer>
+      <!-- /footer content -->
+      <script>
+
+        // Testing Data 
+        $(document).ready(function () {
+          let servers = [
+            { id: "1", name: 'Server 1' },
+            { id: "2", name: 'Server 2' },
+            { id: '3', name: 'Server 3' },
+            { id: "4", name: 'Server 4' },
+            { id: "5", name: 'Server 5' },
+          ];
+
+          let domains = [
+            { id: 1, domain: 'example.com', serverId: "1", expiryDate: '2025-12-31' },
+            { id: 2, domain: 'example2.com', serverId: "2", expiryDate: null },
+            { id: 4, domain: 'example1.com', serverId: "1", expiryDate: '2025-12-31' },
+            { id: 5, domain: 'example5.com', serverId: "2", expiryDate: '2025-12-31' },
+            { id: 6, domain: 'example6.com', serverId: "2", expiryDate: null },
+          ];
+
+          
+          const table = $('#domain-table').DataTable({
+            'order': [[1, 'asc']],
+            'columnDefs': [
+              { orderable: false, targets: [0, 4] }
+            ]
+          });
+
+          // let servers = [];
+          // let domains = [];
+
+          // Fetch servers and preload dropdown
+
+          function fetchServers() {
+            $.ajax({
+              url: '/api/servers', // Backend endpoint for servers
+              method: 'GET',
+              success: function (data) {
+                servers = data;
+              },
+              error: function (error) {
+                console.error("Failed to load servers:", error);
+              }
+            });
+          }
+
+          // Fetch domains and populate the table
+          function fetchDomains() {
+            $.ajax({
+              url: '/api/domains', // Backend endpoint for domains
+              method: 'GET',
+              success: function (data) {
+                domains = data;
+                populateTable(); // Function to populate table with domains
+              },
+              error: function (error) {
+                console.error("Failed to load domains:", error);
+              }
+            });
+          }
+          fetchDomains();
+          fetchServers(); 
+
+          function populateTable() {
+            table.clear(); // Clear existing rows
+            domains.forEach(domain => {
+              const serverName = servers.find(s => s.id === domain.serverId)?.name || 'Unknown Server';
+
+              const certStatus = domain.expiryDate !== null
+                ? `<div class="clearfix">
+                <span class="pull-left">Expires: ${domain.expiryDate}</span>
+                <button class="btn btn-sm btn-success renew-cert pull-right" data-id="${domain.id}">Renew</button>
+              </div>`
+                : `<div class="clearfix">
+                <span class="pull-left">No certificate</span>
+                <button class="btn btn-sm btn-primary create-cert pull-right" data-id="${domain.id}">Create Certificate</button>
+              </div>`;
+
+              const rowNode = table.row.add([
+                `<input type="checkbox" class="select-domain">`,
+                `<span class="editable-domain">${domain.domain}</span>`,
+                `<span class="editable-server">${serverName}</span>`,
+                certStatus,
+                `<button class="btn btn-sm btn-danger delete-row" data-id="${domain.id}">Delete</button>`
+              ]).draw(false).node();
+
+              $(rowNode).data('id', domain.id);
+            });
+          }
+          populateTable();
+
+          //////////////////////////////////////
+          // Helper Functions
+          ////////////////////////////////////
+          // function to get id
+          function getDomainId(row) {
+            return $(row).data('id');
+          }
+
+          // Update button states based on selected rows
+          function updateButtonStates() {
+            const selectedCount = $('input.select-domain:checked').length;
+            const totalCheckboxes = $('input.select-domain').length;
+
+            if (selectedCount > 1) {
+              $('.delete-row').prop('disabled', true);
+              $('.create-cert, .renew-cert').prop('disabled', true);
+            } else {
+              $('.delete-row').prop('disabled', false);
+              $('.create-cert, .renew-cert').prop('disabled', false);
+            }
+
+            // Update the "Select All" checkbox state
+            $('#select-all').prop('checked', selectedCount === totalCheckboxes).iCheck('update');
+          }
+
+          // Monitor checkbox selection changes
+          $('#domain-table tbody').on('ifChanged', '.select-domain', function () {
+            updateButtonStates();
+          });
+
+          // Select all checkboxes functionality
+          $('#select-all').on('ifChanged', function () {
+            const isChecked = $(this).prop('checked');
+            $('input.select-domain').iCheck(isChecked ? 'check' : 'uncheck');
+            updateButtonStates();
+          });
+
+          // Initialize checkbox styling with iCheck
+          $('input').iCheck({
+            checkboxClass: 'icheckbox_flat-green'
+          });
+          table.on('draw.dt', function () {
+            $('input.select-domain').iCheck({
+              checkboxClass: 'icheckbox_flat-green'
+            });
+          });
+
+
+          ////////////////////////////////////////////////////////////////////////////////////////
+          /////// Event Handlers and Functions for Adding, Editing, and Deleting 
+          ////////////////////////////////////////////////////////////////////////////////////////
+
+
+          // Add Domain Row
+          let hoverRow = null;
+
+          $('#add-domain').hover(
+            function () {
+              if (!hoverRow) {
+                hoverRow = table.row.add([
+                  `<input type="checkbox" class="select-domain">`,
+                  `<input type="text" class="form-control domain-input" placeholder="Enter domain name">`,
+                  createServerDropdown(),
+                  `<div class="clearfix">
+                  <span class="pull-left">No certificate</span>
+                  <button class="btn btn-sm btn-primary create-cert pull-right">Create Certificate</button>
+                  </div>`,
+                  `<button class="btn btn-sm btn-danger delete-row">Delete</button>`
+                ]).draw(false).node();
+
+                $(hoverRow).addClass('new-domain-row');
+                const domainInput = $(hoverRow).find('.domain-input');
+                domainInput.focus();
+                const serverDropdown = $(hoverRow).find('.server-dropdown');
+                serverDropdown.hover(
+                  function () {
+                    $(this).attr('size', servers.length);
+                  },
+                  function () {
+                    $(this).removeAttr('size');
+                  }
+                );
+
+                addInputSaveHandlers(domainInput, serverDropdown);
+                if ($('#select-all').prop('checked')) {
+                  const newCheckbox = $(hoverRow).find('.select-domain');
+                  newCheckbox.prop('checked', true).iCheck('update');
+                }
+                updateButtonStates();
+              }
+            },
+            function () {
+              setTimeout(() => {
+                if (hoverRow) {
+                  const domainInput = $(hoverRow).find('.domain-input');
+                  if (!domainInput.val().trim()) {
+                    table.row($(hoverRow)).remove().draw(false);
+                  }
+                  hoverRow = null;
+                }
+              }, 200);
+            }
+          );
+
+          // Add save handlers for input and dropdown elements
+          function addInputSaveHandlers(inputElement, dropdownElement) {
+            const rowNode = $(inputElement).closest('tr');
+            let domainValue = null;
+            let serverValue = null;
+            let serverName = null;
+
+            function saveAndRedrawRow() {
+              if (domainValue && serverValue) {
+                // Send data to the server for saving
+                const dataToSave = {
+                  domain: domainValue,
+                  serverId: serverValue,
+                  expiryDate: null,
+                };
+
+                $.ajax({
+                  url: '/api/domains',
+                  method: 'POST',
+                  contentType: 'application/json',
+                  data: JSON.stringify(dataToSave),
+                  success: function (response) {
+                    showNotification('success', 'Domain added successfully.');
+
+                    // Update the row with the response data
+                    table.row(rowNode).data([
+                      `<input type="checkbox" class="select-domain">`,
+                      `<span class="editable-domain">${response.domain}</span>`,
+                      `<span class="editable-server">${serverName}</span>`,
+                      `<div class="clearfix">
+                      <span class="pull-left" >No certificate</span>
+                      <button class="btn btn-sm btn-primary create-cert pull-right" >Create Certificate</button>
+                      </div>`,
+                      `<button class="btn btn-sm btn-danger delete-row"  >Delete</button>`
+                    ]).draw(false);
+                    $(rowNode).attr('data-id', response.id);
+                  },
+                  error: function (error) {
+                    showNotification('error', 'Failed to add domain. Please try again.');
+                    table.row(rowNode).remove().draw(false);
+                  }
+                });
+              } else {
+                showNotification('error', 'Please fill out all fields before saving.');
+              }
+            }
+
+            // Handle domain input blur or Enter keypress
+            inputElement.on('blur keypress', function (e) {
+              if (e.type === 'blur' || (e.type === 'keypress' && e.key === 'Enter')) {
+                domainValue = $(this).val().trim();
+                if (!domainValue) {
+                  showNotification('error', 'Domain name cannot be empty.');
+                } else if (serverValue) {
+                  saveAndRedrawRow();
+                }
+              }
+            });
+
+            // Handle server dropdown selection
+            dropdownElement.on('change', function () {
+              serverValue = $(this).val();
+              serverName = $(this).find('option:selected').text();
+              if (domainValue) {
+                saveAndRedrawRow();
+              }
+            });
+          }
+
+          function createServerDropdown(selectedServerId = "") {
+            let dropdown = `
+            <select class="form-control server-dropdown" 
+            style="max-height: 100px; min-width: 100px; cursor: pointer;">
+            <option value="" disabled selected>Select a server</option>`;
+            servers.forEach(server => {
+              const selected = server.id === selectedServerId ? 'selected' : '';
+              dropdown += `<option value="${server.id}" ${selected}>${server.name}</option>`;
+            });
+            dropdown += '</select>';
+            return dropdown;
+          }
+
+          // Hover to Edit Domain Name
+          $('#domain-table tbody').on('mouseenter', '.editable-domain', function () {
+            const cell = $(this);
+            const currentValue = cell.text();
+            const domainId = getDomainId(cell.closest('tr'));
+
+            const inputField = `<input type="text" class="form-control domain-input" value="${currentValue}">`;
+            cell.replaceWith(inputField);
+            const input = $('.domain-input');
+
+            input.focus().on('blur keypress', function (e) {
+              if (e.type === 'blur' || (e.type === 'keypress' && e.key === 'Enter')) {
+                const newValue = $(this).val();
+                const row = $(this).closest('tr');
+
+                if (newValue !== currentValue) {
+                  $.ajax({
+                    url: `/api/domains/${domainId}`,
+                    method: 'PUT',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ domain: newValue }),
+                    success: function () {
+                      showNotification('success', 'Domain name updated successfully.');
+                      input.replaceWith(`<span class="editable-domain">${newValue}</span>`);
+                    },
+                    error: function () {
+                      showNotification('error', 'Failed to update domain name.');
+                      input.replaceWith(`<span class="editable-domain">${currentValue}</span>`);
+                    }
+                  });
+                } else {
+                  input.replaceWith(`<span class="editable-domain">${currentValue}</span>`);
+                }
+              }
+            });
+          });
+          $('#domain-table tbody').on('mouseleave', '.domain-input', function () {
+            $(this).blur();
+          });
+
+          // Hover to show dropdown for servers and select
+          $('#domain-table tbody').on('mouseenter', '.editable-server', function () {
+            const cell = $(this);
+            const currentServer = cell.text();
+            const row = cell.closest('tr');
+            const domainId = getDomainId(row);
+            const currentServerId = servers.find(s => s.name === currentServer)?.id || "";
+            const dropdown = createServerDropdown(currentServerId);
+
+            cell.replaceWith(dropdown);
+            const serverDropdown = $('.server-dropdown');
+
+            serverDropdown
+              .focus()
+              .hover(
+                function () {
+                  $(this).attr('size', servers.length);
+                },
+                function () {
+                  $(this).removeAttr('size');
+                }
+              )
+              .on('change', function () {
+                const selectedServerId = $(this).val();
+                const selectedServerName = $(this).find('option:selected').text();
+
+                $.ajax({
+                  url: `/api/domains/${domainId}`,
+                  method: 'PUT',
+                  contentType: 'application/json',
+                  data: JSON.stringify({ serverId: selectedServerId }),
+                  success: function () {
+                    showNotification('success', 'Server updated successfully.');
+                    $(serverDropdown).replaceWith(`<span class="editable-server">${selectedServerName}</span>`);
+                  },
+                  error: function () {
+                    showNotification('error', 'Failed to update server assignment.');
+                    $(serverDropdown).replaceWith(`<span class="editable-server">${currentServer}</span>`);
+                  }
+                });
+              })
+              .on('blur', function () {
+                const selectedServerName = $(this).find('option:selected').text() || currentServer;
+                $(this).replaceWith(`<span class="editable-server">${selectedServerName}</span>`);
+              });
+          });
+          $('#domain-table tbody').on('mouseleave', '.server-dropdown', function () {
+            $(this).blur();
+          });
+
+          // Handle One Row deletion
+          $('#domain-table tbody').on('click', '.delete-row', function () {
+            const row = table.row($(this).closest('tr')).node();
+            const domainId = getDomainId(row);
+            if (!domainId) {
+              showNotification('error', 'Domain ID not found. Cannot delete this row.');
+              return;
+            }
+
+            $('#deleteModal').modal('show');
+
+            $('#confirmDelete').off('click').on('click', function () {
+              $.ajax({
+                url: `/api/domains/${domainId}`,
+                method: 'DELETE',
+                success: function () {
+                  row.remove().draw();
+                  $('#deleteModal').modal('hide');
+                  showNotification('success', 'Domain deleted successfully.');
+                },
+                error: function () {
+                  $('#deleteModal').modal('hide');
+                  showNotification('error', 'Failed to delete domain. Please try again.');
+                }
+              });
+            });
+          });
+
+          // Handle Selected Rows Deletion
+          $('#delete-selected').on('click', function () {
+            const selectedRows = $('input.select-domain:checked').parents('tr');
+
+            if (selectedRows.length === 0) {
+              showNotification('error', 'Please select at least one domain to delete.');
+              return;
+            }
+
+            $('#deleteModal').modal('show');
+
+            // Confirm delete action
+            $('#confirmDelete').off('click').on('click', function () {
+              let deleteCount = 0;
+              let failedCount = 0;
+
+              selectedRows.each(function (index, rowElement) {
+                const domainId = getDomainId($(rowElement));
+
+                if (!domainId) {
+                  failedCount++;
+                  return;
+                }
+
+                $.ajax({
+                  url: `/api/domains/${domainId}`,
+                  method: 'DELETE',
+                  success: function () {
+                    deleteCount++;
+                    table.row($(rowElement)).remove().draw();
+
+                    if (deleteCount + failedCount === selectedRows.length) {
+                      $('#deleteModal').modal('hide');
+                      const message =
+                        failedCount > 0
+                          ? `${deleteCount} domains deleted successfully. ${failedCount} failed to delete.`
+                          : 'Selected domains deleted successfully.';
+                      showNotification('success', message);
+
+                      updateButtonStates();
+                    }
+                  },
+                  error: function () {
+                    failedCount++;
+
+                    $(rowElement).find('input.select-domain').iCheck('uncheck');
+
+                    if (deleteCount + failedCount === selectedRows.length) {
+                      $('#deleteModal').modal('hide');
+                      const message =
+                        failedCount > 0
+                          ? `${deleteCount} domains deleted successfully. ${failedCount} failed to delete.`
+                          : 'Selected domains deleted successfully.';
+                      showNotification('error', message);
+
+                      updateButtonStates();
+                    }
+                  }
+                });
+              });
+            });
+          });
+
+
+          // Row-specific "Create Certificate" button functionality
+          $('#domain-table tbody').on('click', '.create-cert', function () {
+            const button = $(this);
+            const row = table.row(button.closest('tr'));
+            const domainId = getDomainId(row);
+
+            createCertificateAPI(row, domainId)
+              .done(() => {
+                button
+                  .text('Renew')
+                  .removeClass('btn-primary create-cert')
+                  .addClass('btn-success renew-cert');
+
+                showNotification('success', 'Certificate created successfully.');
+              })
+              .fail(() => {
+                showNotification('error', 'Failed to create certificate.');
+              });
+          });
+
+          // Row-specific "Renew Certificate" button functionality
+          $('#domain-table tbody').on('click', '.renew-cert', function () {
+            const row = table.row($(this).closest('tr'));
+            const domainId = getDomainId(row);
+
+            renewCertificateAPI(row, domainId)
+              .done(() => {
+                showNotification('success', 'Certificate renewed successfully.');
+              })
+              .fail(() => {
+                showNotification('error', 'Failed to renew certificate.');
+              });
+          });
+
+
+          // Create or Renew Certificate button functionality (Global)
+          $('#create-or-renew').on('click', function () {
+            const selectedDomains = $('input.select-domain:checked').parents('tr');
+
+            if (selectedDomains.length === 0) {
+              showNotification('error', 'Please select at least one domain.');
+              return;
+            }
+
+            let createCount = 0;
+            let renewCount = 0;
+            let failedCount = 0;
+            let processedCount = 0;
+
+            selectedDomains.each(function () {
+              const rowElement = $(this);
+              const row = table.row(rowElement);
+              const domainId = getDomainId(row);
+              const certStatus = row.data()[3];
+
+              const onComplete = () => {
+                processedCount++;
+                if (processedCount === selectedDomains.length) {
+                  const message =
+                    `Processed ${selectedDomains.length} domains: 
+                    ${createCount} created, ${renewCount} renewed, ${failedCount} failed.`;
+                  const status = failedCount > 0 ? 'error' : 'success';
+                  showNotification(status, message);
+
+                  // Reset select-all checkbox
+                  $('#select-all').prop('checked', false).iCheck('update');
+                  updateButtonStates();
+                }
+              };
+
+              if (certStatus.includes('No certificate')) {
+                createCertificateAPI(row, domainId)
+                  .done(() => createCount++)
+                  .fail(() => failedCount++)
+                  .always(onComplete);
+              } else {
+                renewCertificateAPI(row, domainId)
+                  .done(() => renewCount++)
+                  .fail(() => failedCount++)
+                  .always(onComplete);
+              }
+
+              // Reset selection state for the current row
+              rowElement.find('.select-domain').prop('checked', false).iCheck('update');
+            });
+          });
+
+          // Backend API Integration for creating a certificate
+          function createCertificateAPI(row, domainId) {
+            const rowData = row.data();
+            return $.ajax({
+              url: `/api/certificates/create/${domainId}`,
+              method: 'POST',
+              success: function (response) {
+                const newExpiryDate = response.expiryDate;
+                rowData[3] = `<div class="clearfix">
+                <span class="pull-left">Expires: ${newExpiryDate}</span>
+                <button class="btn btn-sm btn-success renew-cert pull-right">Renew</button>
+            </div>`;
+                row.invalidate().draw();
+              }
+            });
+          }
+
+          // Backend API Integration for renewing a certificate
+          function renewCertificateAPI(row, domainId) {
+            const rowData = row.data();
+            return $.ajax({
+              url: `/api/certificates/renew/${domainId}`,
+              type: 'POST',
+              success: function (response) {
+                const renewedExpiryDate = response.expiryDate;
+                rowData[3] = `<div class="clearfix">
+                <span class="pull-left">Expires: ${renewedExpiryDate}</span>
+                <button class="btn btn-sm btn-success renew-cert pull-right">Renew</button>
+            </div>`;
+                row.invalidate().draw();
+              }
+            });
+          }
+
+
+        });
+
+
+        // Notification function
+        function showNotification(type, message) {
+          new PNotify({
+            title: 'Notification',
+            text: message,
+            type: type,
+            styling: 'bootstrap3',
+            delay: 2000
+          });
+        }
+
+      </script>
+    </div>
+  </div>
+  <!-- jQuery -->
+  <script src="../vendors/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- FastClick -->
+  <script src="../vendors/fastclick/lib/fastclick.js"></script>
+  <!-- NProgress -->
+  <script src="../vendors/nprogress/nprogress.js"></script>
+  <!-- iCheck -->
+  <script src="../vendors/iCheck/icheck.min.js"></script>
+  <!-- Datatables -->
+  <script src="../vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+  <script src="../vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+  <script src="../vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+  <script src="../vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+  <script src="../vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+  <script src="../vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+  <script src="../vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+  <script src="../vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+  <script src="../vendors/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+  <script src="../vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+  <script src="../vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+  <script src="../vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
+  <script src="../vendors/jszip/dist/jszip.min.js"></script>
+  <script src="../vendors/pdfmake/build/pdfmake.min.js"></script>
+  <script src="../vendors/pdfmake/build/vfs_fonts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.buttons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.nonblock.js"></script>
+  <script src="../vendors/iCheck/icheck.min.js"></script>
+
+
+  <!-- Custom Theme Scripts -->
+  <script src="../build/js/custom.min.js"></script>
+</body>
+
+</html>
